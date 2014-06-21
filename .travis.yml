@@ -3,10 +3,8 @@ bundler_args: --without kitchen_vagrant
 rvm:
   - 1.9.3
   - 2.0.0
-env: 
-  - "CODECLIMATE_REPO_TOKEN=58cc45683cff23db493b692dbe248771cf6a0c03fdcb0f45a06270c652abebbd"
 before_script:
   - bundle exec berks
 script:
   - bundle exec rake style
-  - bundle exec rake spec
+  - CODECLIMATE_REPO_TOKEN=58cc45683cff23db493b692dbe248771cf6a0c03fdcb0f45a06270c652abebbd bundle exec rake spec
