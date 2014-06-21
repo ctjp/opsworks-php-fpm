@@ -11,7 +11,6 @@ end
 
 group :unit do
   gem 'chefspec', '~> 3.4.0'
-  gem 'codeclimate-test-reporter', require: nil
 end
 
 group :kitchen_common do
