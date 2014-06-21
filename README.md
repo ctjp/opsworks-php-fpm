@@ -6,4 +6,4 @@ OpsWorks PHP-FPM
 [travis]: https://travis-ci.org/ctjp/opsworks-php-fpm
 [gemnasium]: https://gemnasium.com/ctjp/opsworks-php-fpm
 
-Install php-fpm using https://travis-ci.org/ctjp/opsworks-php-fpm, manage configuration files and services.
+Install php-fpm using https://github.com/opscode-cookbooks/php and manage global and pool configuration files and service daemon.
