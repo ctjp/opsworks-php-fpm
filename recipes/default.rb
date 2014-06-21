@@ -8,6 +8,7 @@ template node['php-fpm']['conf_file'] do
 end
 
 if node['php-fpm']['pools']
+  # Merge default attributes
   version = node['php-fpm']['version']
   pool_defaults = node['php-fpm']['pool_defaults']
   pools = node['php-fpm']['pools'].dup
